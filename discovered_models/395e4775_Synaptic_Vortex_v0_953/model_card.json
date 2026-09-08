@@ -1,0 +1,38 @@
+{
+  "id": "395e4775",
+  "name": "Synaptic_Vortex_v0_953",
+  "task_type": "sequence",
+  "generation": 0,
+  "parent_id": "genesis",
+  "fitness_score": 54.44,
+  "hypothesis": "Hypothesis: Combining MultiScaleWaveletConv1D, LinearBlock with AdaptiveHarmonicActivation and 0 dynamic skip connections will improve gradient flow, enhance representation capacity, and maximize throughput on AMD Radeon hardware.",
+  "benchmark_results": {
+    "status": "success",
+    "final_val_loss": 1.1784,
+    "final_val_accuracy": 49.69,
+    "param_count": 9592,
+    "train_duration_sec": 0.53,
+    "throughput_samples_per_sec": 4800.6,
+    "inference_latency_ms": 0.84,
+    "history": {
+      "train_loss": [
+        1.2366,
+        1.0765
+      ],
+      "val_loss": [
+        1.224,
+        1.1784
+      ],
+      "val_accuracy": [
+        48.12,
+        49.69
+      ],
+      "epochs": [
+        1,
+        2
+      ]
+    }
+  },
+  "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\395e4775_Synaptic_Vortex_v0_953\\model.py",
+  "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\395e4775_Synaptic_Vortex_v0_953\\weights.pt"
+}

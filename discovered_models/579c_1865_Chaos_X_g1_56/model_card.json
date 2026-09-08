@@ -1,0 +1,38 @@
+{
+  "id": "579c_1865",
+  "name": "Chaos_X_g1_56",
+  "task_type": "sequence",
+  "generation": 1,
+  "parent_id": "579c47b5",
+  "fitness_score": 55.55,
+  "hypothesis": "Mutated from Chaos_Weaver_v0_812 (Gen 0) to explore topological variations and higher efficiency.",
+  "benchmark_results": {
+    "status": "success",
+    "final_val_loss": 1.0908,
+    "final_val_accuracy": 54.69,
+    "param_count": 15932,
+    "train_duration_sec": 0.82,
+    "throughput_samples_per_sec": 3109.1,
+    "inference_latency_ms": 1.34,
+    "history": {
+      "train_loss": [
+        1.2174,
+        1.0745
+      ],
+      "val_loss": [
+        1.1524,
+        1.0908
+      ],
+      "val_accuracy": [
+        52.19,
+        54.69
+      ],
+      "epochs": [
+        1,
+        2
+      ]
+    }
+  },
+  "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\579c_1865_Chaos_X_g1_56\\model.py",
+  "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\579c_1865_Chaos_X_g1_56\\weights.pt"
+}

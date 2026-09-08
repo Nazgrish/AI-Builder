@@ -1,0 +1,38 @@
+{
+  "id": "d28db59c",
+  "name": "Chaos_Nexus_v0_441",
+  "task_type": "sequence",
+  "generation": 0,
+  "parent_id": "genesis",
+  "fitness_score": 51.66,
+  "hypothesis": "Hypothesis: Unrestricted combination of [FractalRoutingBlock, FractalRoutingBlock, MultiScaleWaveletConv1D, FractalRoutingBlock, AttentionBlock] with nn.SiLU and 1 dynamic skip connections. Optimizes gradient dynamics and non-linear expressive capacity on AMD hardware.",
+  "benchmark_results": {
+    "status": "success",
+    "final_val_loss": 1.0994,
+    "final_val_accuracy": 56.25,
+    "param_count": 242397,
+    "train_duration_sec": 1.71,
+    "throughput_samples_per_sec": 1495.7,
+    "inference_latency_ms": 2.83,
+    "history": {
+      "train_loss": [
+        1.3413,
+        1.1
+      ],
+      "val_loss": [
+        1.1459,
+        1.0994
+      ],
+      "val_accuracy": [
+        50.31,
+        56.25
+      ],
+      "epochs": [
+        1,
+        2
+      ]
+    }
+  },
+  "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\d28db59c_Chaos_Nexus_v0_441\\model.py",
+  "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\d28db59c_Chaos_Nexus_v0_441\\weights.pt"
+}

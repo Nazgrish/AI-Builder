@@ -1,0 +1,38 @@
+{
+  "id": "a46e_9701",
+  "name": "Adaptive_X_g1_50",
+  "task_type": "sequence",
+  "generation": 1,
+  "parent_id": "a46e565a",
+  "fitness_score": 53.96,
+  "hypothesis": "Mutated from Adaptive_Engine_v0_235 (Gen 0) to explore topological variations and higher efficiency.",
+  "benchmark_results": {
+    "status": "success",
+    "final_val_loss": 1.0288,
+    "final_val_accuracy": 56.88,
+    "param_count": 102888,
+    "train_duration_sec": 1.07,
+    "throughput_samples_per_sec": 2393.5,
+    "inference_latency_ms": 2.02,
+    "history": {
+      "train_loss": [
+        1.224,
+        0.9814
+      ],
+      "val_loss": [
+        1.1806,
+        1.0288
+      ],
+      "val_accuracy": [
+        50.0,
+        56.88
+      ],
+      "epochs": [
+        1,
+        2
+      ]
+    }
+  },
+  "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\a46e_9701_Adaptive_X_g1_50\\model.py",
+  "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\a46e_9701_Adaptive_X_g1_50\\weights.pt"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "d02ffbe0",
+  "name": "Quantum_Dynamo_v0_117",
+  "task_type": "sequence",
+  "generation": 0,
+  "parent_id": "genesis",
+  "fitness_score": 52.98,
+  "hypothesis": "Hypothesis: Unrestricted combination of [LinearBlock, FractalRoutingBlock, GenerativeLatentDiffusionBlock] with AdaptiveHarmonicActivation and 1 dynamic skip connections. Optimizes gradient dynamics and non-linear expressive capacity on AMD hardware.",
+  "benchmark_results": {
+    "status": "success",
+    "final_val_loss": 1.0284,
+    "final_val_accuracy": 55.0,
+    "param_count": 565903,
+    "train_duration_sec": 1.28,
+    "throughput_samples_per_sec": 2003.7,
+    "inference_latency_ms": 1.45,
+    "history": {
+      "train_loss": [
+        1.3672,
+        1.0744
+      ],
+      "val_loss": [
+        1.2234,
+        1.0284
+      ],
+      "val_accuracy": [
+        45.94,
+        55.0
+      ],
+      "epochs": [
+        1,
+        2
+      ]
+    }
+  },
+  "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\d02ffbe0_Quantum_Dynamo_v0_117\\model.py",
+  "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\d02ffbe0_Quantum_Dynamo_v0_117\\weights.pt"
+}

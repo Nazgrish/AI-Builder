@@ -1,0 +1,1858 @@
+[
+  {
+    "id": "gibby_t3",
+    "name": "ResBlock",
+    "task_type": "cifar10",
+    "generation": 3,
+    "parent_id": "optuna_tpe_3",
+    "fitness_score": 91.08,
+    "hypothesis": "NAS Trial 3: {'architecture_type': 'Deep_Residual_ConvNet', 'base_channels': 64, 'fc_units': 384, 'activation': 'GELU', 'dropout': 0.15000000000000002, 'lr': 0.0011587199993284838}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.3016,
+      "final_val_accuracy": 91.08,
+      "param_count": 517130,
+      "train_duration_sec": 155.99,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "train_loss": [
+          0.7808,
+          0.5234,
+          0.4822,
+          0.458,
+          0.4374,
+          0.4205,
+          0.4081,
+          0.3926,
+          0.379,
+          0.3677,
+          0.3608,
+          0.357
+        ],
+        "val_loss": [
+          0.4417,
+          0.4004,
+          0.3865,
+          0.3376,
+          0.3726,
+          0.3528,
+          0.3194,
+          0.3141,
+          0.3003,
+          0.308,
+          0.3009,
+          0.3016
+        ],
+        "val_accuracy": [
+          85.58,
+          87.08,
+          88.66,
+          89.7,
+          87.9,
+          89.9,
+          89.98,
+          90.16,
+          91.04,
+          90.6,
+          91.0,
+          91.08
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t3_ResBlock\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t3_ResBlock\\weights.pt"
+  },
+  {
+    "id": "gibby_t10",
+    "name": "ResBlock",
+    "task_type": "cifar10",
+    "generation": 10,
+    "parent_id": "optuna_tpe_10",
+    "fitness_score": 90.88,
+    "hypothesis": "NAS Trial 10: {'architecture_type': 'Deep_Residual_ConvNet', 'base_channels': 48, 'fc_units': 256, 'activation': 'ReLU', 'dropout': 0.05, 'lr': 0.0010571804056312838}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.3059,
+      "final_val_accuracy": 90.88,
+      "param_count": 517130,
+      "train_duration_sec": 156.42,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "train_loss": [
+          0.7784,
+          0.5292,
+          0.4795,
+          0.4579,
+          0.4387,
+          0.4207,
+          0.4049,
+          0.3907,
+          0.3793,
+          0.3675,
+          0.3609,
+          0.3566
+        ],
+        "val_loss": [
+          0.5328,
+          0.4048,
+          0.3548,
+          0.3518,
+          0.3251,
+          0.3129,
+          0.325,
+          0.3046,
+          0.2962,
+          0.2948,
+          0.3031,
+          0.3059
+        ],
+        "val_accuracy": [
+          81.34,
+          86.38,
+          89.26,
+          89.78,
+          90.6,
+          90.6,
+          90.06,
+          90.74,
+          91.24,
+          91.22,
+          91.04,
+          90.88
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t10_ResBlock\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t10_ResBlock\\weights.pt"
+  },
+  {
+    "id": "gibby_t12",
+    "name": "GeneratedModel",
+    "task_type": "fashionmnist",
+    "generation": 12,
+    "parent_id": "optuna_tpe_12",
+    "fitness_score": 88.9,
+    "hypothesis": "NAS Trial 12: {'conv_layers': 5, 'base_channels': 128, 'fc_units': 256, 'activation': 'ReLU', 'dropout': 0.2, 'lr': 0.0017535361273698096}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.4786,
+      "final_val_accuracy": 88.9,
+      "param_count": 620234,
+      "train_duration_sec": 23.21,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "train_loss": [
+          0.789,
+          0.5424,
+          0.4908,
+          0.47,
+          0.4517,
+          0.4399,
+          0.4256,
+          0.4172,
+          0.4132,
+          0.403
+        ],
+        "val_loss": [
+          0.6596,
+          0.6063,
+          0.5814,
+          0.5527,
+          0.5595,
+          0.514,
+          0.5119,
+          0.5262,
+          0.4802,
+          0.4786
+        ],
+        "val_accuracy": [
+          77.6,
+          82.1,
+          81.1,
+          85.0,
+          81.9,
+          86.2,
+          86.1,
+          86.5,
+          88.0,
+          88.9
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t12_GeneratedModel\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t12_GeneratedModel\\weights.pt"
+  },
+  {
+    "id": "gibby_t2",
+    "name": "ResBlock",
+    "task_type": "fashionmnist",
+    "generation": 2,
+    "parent_id": "optuna_tpe_2",
+    "fitness_score": 87.9,
+    "hypothesis": "NAS Trial 2: {'conv_layers': 2, 'base_channels': 32, 'fc_units': 256, 'activation': 'ReLU', 'dropout': 0.2, 'lr': 0.0027494361694539995}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.3968,
+      "final_val_accuracy": 87.9,
+      "param_count": 517130,
+      "train_duration_sec": 66.28,
+      "history": {
+        "epochs": [
+          1,
+          2
+        ],
+        "train_loss": [
+          0.6398,
+          0.3861
+        ],
+        "val_loss": [
+          0.4064,
+          0.3968
+        ],
+        "val_accuracy": [
+          86.92,
+          87.9
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\AI_Builder\\discovered_models\\gibby_t2_ResBlock\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\AI_Builder\\discovered_models\\gibby_t2_ResBlock\\weights.pt"
+  },
+  {
+    "id": "gibby_t1",
+    "name": "ResBlock",
+    "task_type": "fashionmnist",
+    "generation": 1,
+    "parent_id": "optuna_tpe_1",
+    "fitness_score": 87.88,
+    "hypothesis": "NAS Trial 1: {'conv_layers': 4, 'base_channels': 64, 'fc_units': 256, 'activation': 'ReLU', 'dropout': 0.2, 'lr': 0.0006971380764548921}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.3931,
+      "final_val_accuracy": 87.88,
+      "param_count": 517130,
+      "train_duration_sec": 66.3,
+      "history": {
+        "epochs": [
+          1,
+          2
+        ],
+        "train_loss": [
+          0.6123,
+          0.3807
+        ],
+        "val_loss": [
+          0.4013,
+          0.3931
+        ],
+        "val_accuracy": [
+          87.02,
+          87.88
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\AI_Builder\\discovered_models\\gibby_t1_ResBlock\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\AI_Builder\\discovered_models\\gibby_t1_ResBlock\\weights.pt"
+  },
+  {
+    "id": "gibby_t13",
+    "name": "GeneratedModel",
+    "task_type": "fashionmnist",
+    "generation": 13,
+    "parent_id": "optuna_tpe_13",
+    "fitness_score": 86.7,
+    "hypothesis": "NAS Trial 13: {'conv_layers': 4, 'base_channels': 128, 'fc_units': 256, 'activation': 'ReLU', 'dropout': 0.2, 'lr': 0.0019404771145526693}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.509,
+      "final_val_accuracy": 86.7,
+      "param_count": 620234,
+      "train_duration_sec": 23.02,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "train_loss": [
+          0.8,
+          0.5445,
+          0.4993,
+          0.4757,
+          0.4647,
+          0.4523,
+          0.4417,
+          0.4283,
+          0.4117,
+          0.4088
+        ],
+        "val_loss": [
+          0.6846,
+          0.6363,
+          0.6348,
+          0.5692,
+          0.5726,
+          0.5599,
+          0.4951,
+          0.5011,
+          0.4786,
+          0.509
+        ],
+        "val_accuracy": [
+          75.7,
+          79.9,
+          82.8,
+          83.7,
+          82.2,
+          85.7,
+          87.0,
+          85.7,
+          87.6,
+          86.7
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t13_GeneratedModel\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t13_GeneratedModel\\weights.pt"
+  },
+  {
+    "id": "gibby_t4",
+    "name": "GeneratedModel",
+    "task_type": "fashionmnist",
+    "generation": 4,
+    "parent_id": "optuna_tpe_4",
+    "fitness_score": 86.5,
+    "hypothesis": "NAS Trial 4: {'conv_layers': 5, 'base_channels': 128, 'fc_units': 128, 'activation': 'GELU', 'dropout': 0.1, 'lr': 0.0011510889855436694}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.5164,
+      "final_val_accuracy": 86.5,
+      "param_count": 620234,
+      "train_duration_sec": 23.06,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "train_loss": [
+          0.7982,
+          0.5389,
+          0.4899,
+          0.4688,
+          0.4486,
+          0.4359,
+          0.4242,
+          0.4164,
+          0.4068,
+          0.4005
+        ],
+        "val_loss": [
+          0.7145,
+          0.6441,
+          0.6055,
+          0.5466,
+          0.5359,
+          0.5238,
+          0.4894,
+          0.5278,
+          0.4788,
+          0.5164
+        ],
+        "val_accuracy": [
+          76.5,
+          79.3,
+          79.8,
+          83.1,
+          85.1,
+          85.2,
+          87.2,
+          85.4,
+          87.4,
+          86.5
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t4_GeneratedModel\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t4_GeneratedModel\\weights.pt"
+  },
+  {
+    "id": "gibby_t20",
+    "name": "GeneratedModel",
+    "task_type": "fashionmnist",
+    "generation": 20,
+    "parent_id": "optuna_tpe_20",
+    "fitness_score": 84.33,
+    "hypothesis": "NAS Trial 20: {'conv_layers': 2, 'base_channels': 64, 'fc_units': 128, 'activation': 'ReLU', 'dropout': 0.30000000000000004, 'lr': 0.0022203464269249045}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.6764,
+      "final_val_accuracy": 84.33,
+      "param_count": 421642,
+      "train_duration_sec": 6.21,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "train_loss": [
+          1.0716,
+          0.6303,
+          0.5576,
+          0.5241,
+          0.503,
+          0.4839,
+          0.4617,
+          0.4517,
+          0.4314,
+          0.4225,
+          0.4133,
+          0.4059,
+          0.3958,
+          0.3906,
+          0.3792
+        ],
+        "val_loss": [
+          0.8853,
+          0.8984,
+          0.8305,
+          0.7724,
+          0.7745,
+          0.7367,
+          0.7358,
+          0.716,
+          0.7114,
+          0.6928,
+          0.697,
+          0.6785,
+          0.7125,
+          0.6706,
+          0.6764
+        ],
+        "val_accuracy": [
+          70.33,
+          73.0,
+          77.67,
+          80.0,
+          79.0,
+          81.33,
+          82.33,
+          82.67,
+          82.0,
+          84.33,
+          84.0,
+          84.0,
+          84.67,
+          84.33,
+          84.33
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t20_GeneratedModel\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t20_GeneratedModel\\weights.pt"
+  },
+  {
+    "id": "gibby_t21",
+    "name": "GeneratedModel",
+    "task_type": "fashionmnist",
+    "generation": 21,
+    "parent_id": "optuna_tpe_21",
+    "fitness_score": 84.0,
+    "hypothesis": "NAS Trial 21: {'conv_layers': 2, 'base_channels': 64, 'fc_units': 128, 'activation': 'ReLU', 'dropout': 0.4, 'lr': 0.002241598925144193}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.6651,
+      "final_val_accuracy": 84.0,
+      "param_count": 421642,
+      "train_duration_sec": 6.24,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "train_loss": [
+          1.0463,
+          0.6211,
+          0.5573,
+          0.5267,
+          0.5111,
+          0.4792,
+          0.4629,
+          0.4482,
+          0.4299,
+          0.4225,
+          0.4068,
+          0.3992,
+          0.3976,
+          0.3916,
+          0.3836
+        ],
+        "val_loss": [
+          0.9572,
+          0.8543,
+          0.8513,
+          0.7813,
+          0.7701,
+          0.7173,
+          0.7184,
+          0.6827,
+          0.6965,
+          0.6924,
+          0.6887,
+          0.6648,
+          0.6802,
+          0.651,
+          0.6651
+        ],
+        "val_accuracy": [
+          71.33,
+          73.0,
+          74.67,
+          79.0,
+          76.0,
+          80.0,
+          80.67,
+          82.0,
+          82.33,
+          84.67,
+          84.67,
+          85.33,
+          85.67,
+          85.0,
+          84.0
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t21_GeneratedModel\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t21_GeneratedModel\\weights.pt"
+  },
+  {
+    "id": "gibby_t8",
+    "name": "GeneratedModel",
+    "task_type": "fashionmnist",
+    "generation": 8,
+    "parent_id": "optuna_tpe_8",
+    "fitness_score": 83.67,
+    "hypothesis": "NAS Trial 8: {'conv_layers': 3, 'base_channels': 16, 'fc_units': 64, 'activation': 'GELU', 'dropout': 0.2, 'lr': 0.001389883566249618}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.6966,
+      "final_val_accuracy": 83.67,
+      "param_count": 421642,
+      "train_duration_sec": 6.26,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "train_loss": [
+          1.209,
+          0.6695,
+          0.5865,
+          0.5461,
+          0.5257,
+          0.503,
+          0.4865,
+          0.4682,
+          0.4526,
+          0.4423,
+          0.4338,
+          0.4253,
+          0.4193,
+          0.4096,
+          0.4033
+        ],
+        "val_loss": [
+          1.0855,
+          0.9034,
+          0.8453,
+          0.8031,
+          0.78,
+          0.7479,
+          0.7432,
+          0.7291,
+          0.6934,
+          0.6987,
+          0.6982,
+          0.699,
+          0.6893,
+          0.7125,
+          0.6966
+        ],
+        "val_accuracy": [
+          66.33,
+          69.33,
+          73.67,
+          77.67,
+          78.0,
+          78.67,
+          80.0,
+          81.67,
+          80.67,
+          83.33,
+          83.67,
+          83.67,
+          83.33,
+          82.67,
+          83.67
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t8_GeneratedModel\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t8_GeneratedModel\\weights.pt"
+  },
+  {
+    "id": "gibby_t29",
+    "name": "GeneratedModel",
+    "task_type": "cifar10",
+    "generation": 29,
+    "parent_id": "optuna_tpe_29",
+    "fitness_score": 83.33,
+    "hypothesis": "NAS Trial 29: {'conv_layers': 2, 'base_channels': 64, 'fc_units': 128, 'activation': 'ReLU', 'dropout': 0.4, 'lr': 0.0024233706134662806}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.7075,
+      "final_val_accuracy": 83.33,
+      "param_count": 421642,
+      "train_duration_sec": 6.26,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "train_loss": [
+          1.1472,
+          0.6219,
+          0.5674,
+          0.5392,
+          0.5157,
+          0.4873,
+          0.4749,
+          0.4666,
+          0.4521,
+          0.4345,
+          0.4255,
+          0.4138,
+          0.4081,
+          0.4014,
+          0.3973
+        ],
+        "val_loss": [
+          0.9567,
+          0.8918,
+          0.8134,
+          0.7744,
+          0.7477,
+          0.7421,
+          0.7158,
+          0.7005,
+          0.7101,
+          0.6886,
+          0.6996,
+          0.6708,
+          0.6512,
+          0.6883,
+          0.7075
+        ],
+        "val_accuracy": [
+          68.67,
+          71.0,
+          75.0,
+          77.67,
+          81.0,
+          80.67,
+          82.0,
+          80.67,
+          82.33,
+          84.0,
+          82.33,
+          85.0,
+          84.0,
+          84.0,
+          83.33
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t29_GeneratedModel\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t29_GeneratedModel\\weights.pt"
+  },
+  {
+    "id": "gibby_t27",
+    "name": "GeneratedModel",
+    "task_type": "fashionmnist",
+    "generation": 27,
+    "parent_id": "optuna_tpe_27",
+    "fitness_score": 83.33,
+    "hypothesis": "NAS Trial 27: {'conv_layers': 2, 'base_channels': 64, 'fc_units': 128, 'activation': 'ReLU', 'dropout': 0.30000000000000004, 'lr': 0.0017841181763062367}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.7526,
+      "final_val_accuracy": 83.33,
+      "param_count": 421642,
+      "train_duration_sec": 6.15,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "train_loss": [
+          1.2385,
+          0.7464,
+          0.6612,
+          0.6224,
+          0.595,
+          0.5755,
+          0.5584,
+          0.5392,
+          0.5252,
+          0.516,
+          0.4999,
+          0.4894,
+          0.482,
+          0.4747,
+          0.4718
+        ],
+        "val_loss": [
+          1.0528,
+          0.9314,
+          0.8852,
+          0.92,
+          0.8213,
+          0.794,
+          0.8243,
+          0.7524,
+          0.7856,
+          0.7885,
+          0.744,
+          0.7743,
+          0.7547,
+          0.7748,
+          0.7526
+        ],
+        "val_accuracy": [
+          67.33,
+          73.0,
+          76.0,
+          75.33,
+          78.67,
+          80.0,
+          79.67,
+          81.0,
+          80.0,
+          79.33,
+          84.0,
+          80.67,
+          82.67,
+          81.67,
+          83.33
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t27_GeneratedModel\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t27_GeneratedModel\\weights.pt"
+  },
+  {
+    "id": "gibby_t23",
+    "name": "GeneratedModel",
+    "task_type": "fashionmnist",
+    "generation": 23,
+    "parent_id": "optuna_tpe_23",
+    "fitness_score": 83.2,
+    "hypothesis": "NAS Trial 23: {'conv_layers': 4, 'base_channels': 128, 'fc_units': 256, 'activation': 'ReLU', 'dropout': 0.2, 'lr': 0.0013887553443883947}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.5327,
+      "final_val_accuracy": 83.2,
+      "param_count": 620234,
+      "train_duration_sec": 22.97,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "train_loss": [
+          0.8128,
+          0.5411,
+          0.4987,
+          0.4713,
+          0.4544,
+          0.4488,
+          0.4309,
+          0.4176,
+          0.4108,
+          0.4114
+        ],
+        "val_loss": [
+          0.7296,
+          0.6141,
+          0.5992,
+          0.5444,
+          0.5141,
+          0.5372,
+          0.5291,
+          0.4942,
+          0.5542,
+          0.5327
+        ],
+        "val_accuracy": [
+          74.8,
+          80.1,
+          81.8,
+          84.3,
+          86.9,
+          85.7,
+          85.1,
+          87.7,
+          82.6,
+          83.2
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t23_GeneratedModel\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t23_GeneratedModel\\weights.pt"
+  },
+  {
+    "id": "gibby_t11",
+    "name": "GeneratedModel",
+    "task_type": "fashionmnist",
+    "generation": 11,
+    "parent_id": "optuna_tpe_11",
+    "fitness_score": 83.0,
+    "hypothesis": "NAS Trial 11: {'conv_layers': 2, 'base_channels': 16, 'fc_units': 256, 'activation': 'ReLU', 'dropout': 0.2, 'lr': 0.0029848089901098303}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.6643,
+      "final_val_accuracy": 83.0,
+      "param_count": 421642,
+      "train_duration_sec": 6.21,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "train_loss": [
+          1.1133,
+          0.6403,
+          0.5527,
+          0.523,
+          0.497,
+          0.475,
+          0.4624,
+          0.45,
+          0.4292,
+          0.4224,
+          0.4077,
+          0.401,
+          0.3956,
+          0.383,
+          0.3763
+        ],
+        "val_loss": [
+          1.0502,
+          0.8815,
+          0.7801,
+          0.7577,
+          0.7604,
+          0.7267,
+          0.7588,
+          0.702,
+          0.6977,
+          0.7106,
+          0.672,
+          0.682,
+          0.6788,
+          0.6799,
+          0.6643
+        ],
+        "val_accuracy": [
+          57.0,
+          72.67,
+          76.33,
+          76.33,
+          81.33,
+          79.67,
+          82.0,
+          81.33,
+          81.0,
+          83.67,
+          84.67,
+          85.0,
+          83.67,
+          82.0,
+          83.0
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t11_GeneratedModel\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t11_GeneratedModel\\weights.pt"
+  },
+  {
+    "id": "gibby_t18",
+    "name": "GeneratedModel",
+    "task_type": "fashionmnist",
+    "generation": 18,
+    "parent_id": "optuna_tpe_18",
+    "fitness_score": 82.67,
+    "hypothesis": "NAS Trial 18: {'conv_layers': 4, 'base_channels': 16, 'fc_units': 64, 'activation': 'ReLU', 'dropout': 0.30000000000000004, 'lr': 0.001962631724800096}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.6726,
+      "final_val_accuracy": 82.67,
+      "param_count": 421642,
+      "train_duration_sec": 6.24,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "train_loss": [
+          1.1577,
+          0.6427,
+          0.5726,
+          0.5348,
+          0.516,
+          0.4974,
+          0.4779,
+          0.4595,
+          0.4471,
+          0.4396,
+          0.4285,
+          0.4153,
+          0.415,
+          0.4053,
+          0.3954
+        ],
+        "val_loss": [
+          0.9652,
+          0.8768,
+          0.8304,
+          0.7854,
+          0.7388,
+          0.7268,
+          0.7209,
+          0.6978,
+          0.695,
+          0.6806,
+          0.6808,
+          0.6909,
+          0.7097,
+          0.6737,
+          0.6726
+        ],
+        "val_accuracy": [
+          66.33,
+          73.0,
+          76.0,
+          79.33,
+          80.67,
+          81.33,
+          80.0,
+          84.67,
+          81.33,
+          83.0,
+          83.67,
+          82.0,
+          84.0,
+          83.33,
+          82.67
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t18_GeneratedModel\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t18_GeneratedModel\\weights.pt"
+  },
+  {
+    "id": "gibby_t19",
+    "name": "GeneratedModel",
+    "task_type": "fashionmnist",
+    "generation": 19,
+    "parent_id": "optuna_tpe_19",
+    "fitness_score": 82.33,
+    "hypothesis": "NAS Trial 19: {'conv_layers': 3, 'base_channels': 16, 'fc_units': 64, 'activation': 'ReLU', 'dropout': 0.2, 'lr': 0.002896973070244333}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.8131,
+      "final_val_accuracy": 82.33,
+      "param_count": 421642,
+      "train_duration_sec": 6.25,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "train_loss": [
+          1.1733,
+          0.7288,
+          0.6668,
+          0.6123,
+          0.5858,
+          0.5619,
+          0.5446,
+          0.5343,
+          0.5131,
+          0.4991,
+          0.4876,
+          0.48,
+          0.4745,
+          0.464,
+          0.4591
+        ],
+        "val_loss": [
+          1.1419,
+          0.9499,
+          0.8893,
+          0.8613,
+          0.8094,
+          0.8328,
+          0.77,
+          0.8491,
+          0.7408,
+          0.7763,
+          0.76,
+          0.7483,
+          0.7509,
+          0.7492,
+          0.8131
+        ],
+        "val_accuracy": [
+          63.33,
+          72.33,
+          76.0,
+          77.0,
+          79.33,
+          77.33,
+          80.33,
+          78.33,
+          81.0,
+          82.33,
+          83.33,
+          81.67,
+          83.0,
+          82.33,
+          82.33
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t19_GeneratedModel\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t19_GeneratedModel\\weights.pt"
+  },
+  {
+    "id": "gibby_t7",
+    "name": "GeneratedModel",
+    "task_type": "fashionmnist",
+    "generation": 7,
+    "parent_id": "optuna_tpe_7",
+    "fitness_score": 79.33,
+    "hypothesis": "NAS Trial 7: {'conv_layers': 4, 'base_channels': 64, 'fc_units': 256, 'activation': 'GELU', 'dropout': 0.2, 'lr': 0.0005369350146981359}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.8061,
+      "final_val_accuracy": 79.33,
+      "param_count": 421642,
+      "train_duration_sec": 6.2,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "train_loss": [
+          1.6403,
+          0.9117,
+          0.7638,
+          0.7106,
+          0.6755,
+          0.6559,
+          0.6314,
+          0.6195,
+          0.6021,
+          0.5912,
+          0.5766,
+          0.5674,
+          0.5618,
+          0.552,
+          0.5428
+        ],
+        "val_loss": [
+          1.26,
+          1.0677,
+          1.0333,
+          1.0154,
+          0.9257,
+          0.9121,
+          0.9009,
+          0.8487,
+          0.8444,
+          0.846,
+          0.8335,
+          0.8386,
+          0.8337,
+          0.798,
+          0.8061
+        ],
+        "val_accuracy": [
+          59.33,
+          67.67,
+          70.0,
+          72.0,
+          74.0,
+          75.33,
+          74.33,
+          75.0,
+          77.0,
+          78.0,
+          79.67,
+          76.67,
+          79.0,
+          79.0,
+          79.33
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t7_GeneratedModel\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t7_GeneratedModel\\weights.pt"
+  },
+  {
+    "id": "gibby_t14",
+    "name": "GeneratedModel",
+    "task_type": "fashionmnist",
+    "generation": 14,
+    "parent_id": "optuna_tpe_14",
+    "fitness_score": 79.0,
+    "hypothesis": "NAS Trial 14: {'conv_layers': 2, 'base_channels': 64, 'fc_units': 128, 'activation': 'GELU', 'dropout': 0.30000000000000004, 'lr': 0.0029276715577831896}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.7659,
+      "final_val_accuracy": 79.0,
+      "param_count": 421642,
+      "train_duration_sec": 6.17,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "train_loss": [
+          1.2027,
+          0.7241,
+          0.6608,
+          0.6321,
+          0.5851,
+          0.5682,
+          0.5464,
+          0.5257,
+          0.5117,
+          0.5066,
+          0.4955,
+          0.4733,
+          0.4657,
+          0.4598,
+          0.4512
+        ],
+        "val_loss": [
+          0.9841,
+          0.9547,
+          0.9821,
+          0.8396,
+          0.8371,
+          0.8176,
+          0.7757,
+          0.76,
+          0.7957,
+          0.7805,
+          0.7551,
+          0.718,
+          0.7847,
+          0.7307,
+          0.7659
+        ],
+        "val_accuracy": [
+          69.0,
+          72.33,
+          73.33,
+          78.0,
+          75.33,
+          78.67,
+          81.0,
+          82.0,
+          82.67,
+          82.67,
+          82.0,
+          83.33,
+          82.33,
+          83.33,
+          79.0
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t14_GeneratedModel\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t14_GeneratedModel\\weights.pt"
+  },
+  {
+    "id": "gibby_t5",
+    "name": "GeneratedModel",
+    "task_type": "fashionmnist",
+    "generation": 5,
+    "parent_id": "optuna_tpe_5",
+    "fitness_score": 76.6,
+    "hypothesis": "NAS Trial 5: {'conv_layers': 2, 'base_channels': 16, 'fc_units': 64, 'activation': 'ReLU', 'dropout': 0.30000000000000004, 'lr': 0.0005184737140595865}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.7026,
+      "final_val_accuracy": 76.6,
+      "param_count": 620234,
+      "train_duration_sec": 42.59,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "train_loss": [
+          1.2341,
+          0.7115,
+          0.6699,
+          0.6401,
+          0.6222,
+          0.6132,
+          0.5968,
+          0.5936,
+          0.5931,
+          0.5828,
+          0.5665,
+          0.5665,
+          0.5659,
+          0.5557,
+          0.5476
+        ],
+        "val_loss": [
+          1.0356,
+          0.9431,
+          0.775,
+          0.9404,
+          0.8272,
+          0.801,
+          0.7779,
+          0.7825,
+          0.8704,
+          0.7569,
+          0.7846,
+          0.7785,
+          0.6849,
+          0.7924,
+          0.7026
+        ],
+        "val_accuracy": [
+          60.5,
+          67.2,
+          74.7,
+          64.0,
+          68.5,
+          72.4,
+          72.0,
+          72.9,
+          70.4,
+          73.4,
+          72.1,
+          73.7,
+          76.9,
+          72.8,
+          76.6
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t5_GeneratedModel\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t5_GeneratedModel\\weights.pt"
+  },
+  {
+    "id": "gibby_t6",
+    "name": "GeneratedModel",
+    "task_type": "fashionmnist",
+    "generation": 6,
+    "parent_id": "optuna_tpe_6",
+    "fitness_score": 75.3,
+    "hypothesis": "NAS Trial 6: {'conv_layers': 3, 'base_channels': 64, 'fc_units': 256, 'activation': 'ReLU', 'dropout': 0.2, 'lr': 0.001091864789326984}",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 0.735,
+      "final_val_accuracy": 75.3,
+      "param_count": 620234,
+      "train_duration_sec": 42.57,
+      "history": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "train_loss": [
+          1.0505,
+          0.6867,
+          0.6496,
+          0.6301,
+          0.629,
+          0.6132,
+          0.6007,
+          0.5901,
+          0.6021,
+          0.5815,
+          0.5675,
+          0.5814,
+          0.5661,
+          0.5559,
+          0.5591
+        ],
+        "val_loss": [
+          0.9523,
+          0.8917,
+          0.7848,
+          0.7937,
+          0.7425,
+          0.7937,
+          0.8135,
+          0.6932,
+          0.7652,
+          0.7427,
+          0.7562,
+          0.8003,
+          0.7465,
+          0.7583,
+          0.735
+        ],
+        "val_accuracy": [
+          63.8,
+          67.6,
+          72.1,
+          73.1,
+          73.8,
+          72.8,
+          70.4,
+          78.3,
+          74.9,
+          76.3,
+          74.4,
+          73.3,
+          75.7,
+          75.3,
+          75.3
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t6_GeneratedModel\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\gibby_t6_GeneratedModel\\weights.pt"
+  },
+  {
+    "id": "579c47b5",
+    "name": "Chaos_Weaver_v0_812",
+    "task_type": "sequence",
+    "generation": 0,
+    "parent_id": "genesis",
+    "fitness_score": 56.03,
+    "hypothesis": "Hypothesis: Unrestricted combination of [SpikingHebbianResonator, AttentionBlock, MultiScaleWaveletConv1D, SpikingHebbianResonator, LinearBlock] with QuantumSuperpositionUnit and 1 dynamic skip connections. Optimizes gradient dynamics and non-linear expressive capacity on AMD hardware.",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 1.0429,
+      "final_val_accuracy": 55.31,
+      "param_count": 15932,
+      "train_duration_sec": 0.8,
+      "throughput_samples_per_sec": 3218.9,
+      "inference_latency_ms": 1.37,
+      "history": {
+        "train_loss": [
+          1.1973,
+          1.0496
+        ],
+        "val_loss": [
+          1.0977,
+          1.0429
+        ],
+        "val_accuracy": [
+          53.44,
+          55.31
+        ],
+        "epochs": [
+          1,
+          2
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\579c47b5_Chaos_Weaver_v0_812\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\579c47b5_Chaos_Weaver_v0_812\\weights.pt"
+  },
+  {
+    "id": "90d5f983",
+    "name": "Spiking_Engine_v0_145",
+    "task_type": "sequence",
+    "generation": 0,
+    "parent_id": "genesis",
+    "fitness_score": 55.92,
+    "hypothesis": "Hypothesis: Unrestricted combination of [MultiScaleWaveletConv1D, LinearBlock, GenerativeLatentDiffusionBlock] with nn.SiLU and 2 dynamic skip connections. Optimizes gradient dynamics and non-linear expressive capacity on AMD hardware.",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 1.0227,
+      "final_val_accuracy": 56.88,
+      "param_count": 61608,
+      "train_duration_sec": 0.58,
+      "throughput_samples_per_sec": 4449.8,
+      "inference_latency_ms": 1.14,
+      "history": {
+        "train_loss": [
+          1.2032,
+          1.0219
+        ],
+        "val_loss": [
+          1.1149,
+          1.0227
+        ],
+        "val_accuracy": [
+          55.94,
+          56.88
+        ],
+        "epochs": [
+          1,
+          2
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\90d5f983_Spiking_Engine_v0_145\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\90d5f983_Spiking_Engine_v0_145\\weights.pt"
+  },
+  {
+    "id": "579c_1865",
+    "name": "Chaos_X_g1_56",
+    "task_type": "sequence",
+    "generation": 1,
+    "parent_id": "579c47b5",
+    "fitness_score": 55.55,
+    "hypothesis": "Mutated from Chaos_Weaver_v0_812 (Gen 0) to explore topological variations and higher efficiency.",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 1.0908,
+      "final_val_accuracy": 54.69,
+      "param_count": 15932,
+      "train_duration_sec": 0.82,
+      "throughput_samples_per_sec": 3109.1,
+      "inference_latency_ms": 1.34,
+      "history": {
+        "train_loss": [
+          1.2174,
+          1.0745
+        ],
+        "val_loss": [
+          1.1524,
+          1.0908
+        ],
+        "val_accuracy": [
+          52.19,
+          54.69
+        ],
+        "epochs": [
+          1,
+          2
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\579c_1865_Chaos_X_g1_56\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\579c_1865_Chaos_X_g1_56\\weights.pt"
+  },
+  {
+    "id": "395e4775",
+    "name": "Synaptic_Vortex_v0_953",
+    "task_type": "sequence",
+    "generation": 0,
+    "parent_id": "genesis",
+    "fitness_score": 54.44,
+    "hypothesis": "Hypothesis: Combining MultiScaleWaveletConv1D, LinearBlock with AdaptiveHarmonicActivation and 0 dynamic skip connections will improve gradient flow, enhance representation capacity, and maximize throughput on AMD Radeon hardware.",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 1.1784,
+      "final_val_accuracy": 49.69,
+      "param_count": 9592,
+      "train_duration_sec": 0.53,
+      "throughput_samples_per_sec": 4800.6,
+      "inference_latency_ms": 0.84,
+      "history": {
+        "train_loss": [
+          1.2366,
+          1.0765
+        ],
+        "val_loss": [
+          1.224,
+          1.1784
+        ],
+        "val_accuracy": [
+          48.12,
+          49.69
+        ],
+        "epochs": [
+          1,
+          2
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\395e4775_Synaptic_Vortex_v0_953\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\395e4775_Synaptic_Vortex_v0_953\\weights.pt"
+  },
+  {
+    "id": "a46e_9701",
+    "name": "Adaptive_X_g1_50",
+    "task_type": "sequence",
+    "generation": 1,
+    "parent_id": "a46e565a",
+    "fitness_score": 53.96,
+    "hypothesis": "Mutated from Adaptive_Engine_v0_235 (Gen 0) to explore topological variations and higher efficiency.",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 1.0288,
+      "final_val_accuracy": 56.88,
+      "param_count": 102888,
+      "train_duration_sec": 1.07,
+      "throughput_samples_per_sec": 2393.5,
+      "inference_latency_ms": 2.02,
+      "history": {
+        "train_loss": [
+          1.224,
+          0.9814
+        ],
+        "val_loss": [
+          1.1806,
+          1.0288
+        ],
+        "val_accuracy": [
+          50.0,
+          56.88
+        ],
+        "epochs": [
+          1,
+          2
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\a46e_9701_Adaptive_X_g1_50\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\a46e_9701_Adaptive_X_g1_50\\weights.pt"
+  },
+  {
+    "id": "d02ffbe0",
+    "name": "Quantum_Dynamo_v0_117",
+    "task_type": "sequence",
+    "generation": 0,
+    "parent_id": "genesis",
+    "fitness_score": 52.98,
+    "hypothesis": "Hypothesis: Unrestricted combination of [LinearBlock, FractalRoutingBlock, GenerativeLatentDiffusionBlock] with AdaptiveHarmonicActivation and 1 dynamic skip connections. Optimizes gradient dynamics and non-linear expressive capacity on AMD hardware.",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 1.0284,
+      "final_val_accuracy": 55.0,
+      "param_count": 565903,
+      "train_duration_sec": 1.28,
+      "throughput_samples_per_sec": 2003.7,
+      "inference_latency_ms": 1.45,
+      "history": {
+        "train_loss": [
+          1.3672,
+          1.0744
+        ],
+        "val_loss": [
+          1.2234,
+          1.0284
+        ],
+        "val_accuracy": [
+          45.94,
+          55.0
+        ],
+        "epochs": [
+          1,
+          2
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\d02ffbe0_Quantum_Dynamo_v0_117\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\d02ffbe0_Quantum_Dynamo_v0_117\\weights.pt"
+  },
+  {
+    "id": "a46e565a",
+    "name": "Adaptive_Engine_v0_235",
+    "task_type": "sequence",
+    "generation": 0,
+    "parent_id": "genesis",
+    "fitness_score": 51.72,
+    "hypothesis": "Hypothesis: Combining AttentionBlock, LiquidMemoryGate, MultiScaleWaveletConv1D, AttentionBlock, MultiScaleWaveletConv1D with nn.GELU and 2 dynamic skip connections will improve gradient flow, enhance representation capacity, and maximize throughput on AMD Radeon hardware.",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 1.0463,
+      "final_val_accuracy": 52.5,
+      "param_count": 102888,
+      "train_duration_sec": 1.1,
+      "throughput_samples_per_sec": 2334.1,
+      "inference_latency_ms": 2.0,
+      "history": {
+        "train_loss": [
+          1.2163,
+          0.9615
+        ],
+        "val_loss": [
+          1.1518,
+          1.0463
+        ],
+        "val_accuracy": [
+          52.19,
+          52.5
+        ],
+        "epochs": [
+          1,
+          2
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\a46e565a_Adaptive_Engine_v0_235\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\a46e565a_Adaptive_Engine_v0_235\\weights.pt"
+  },
+  {
+    "id": "d28db59c",
+    "name": "Chaos_Nexus_v0_441",
+    "task_type": "sequence",
+    "generation": 0,
+    "parent_id": "genesis",
+    "fitness_score": 51.66,
+    "hypothesis": "Hypothesis: Unrestricted combination of [FractalRoutingBlock, FractalRoutingBlock, MultiScaleWaveletConv1D, FractalRoutingBlock, AttentionBlock] with nn.SiLU and 1 dynamic skip connections. Optimizes gradient dynamics and non-linear expressive capacity on AMD hardware.",
+    "benchmark_results": {
+      "status": "success",
+      "final_val_loss": 1.0994,
+      "final_val_accuracy": 56.25,
+      "param_count": 242397,
+      "train_duration_sec": 1.71,
+      "throughput_samples_per_sec": 1495.7,
+      "inference_latency_ms": 2.83,
+      "history": {
+        "train_loss": [
+          1.3413,
+          1.1
+        ],
+        "val_loss": [
+          1.1459,
+          1.0994
+        ],
+        "val_accuracy": [
+          50.31,
+          56.25
+        ],
+        "epochs": [
+          1,
+          2
+        ]
+      }
+    },
+    "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\d28db59c_Chaos_Nexus_v0_441\\model.py",
+    "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\d28db59c_Chaos_Nexus_v0_441\\weights.pt"
+  }
+]

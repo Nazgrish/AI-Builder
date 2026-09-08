@@ -1,0 +1,38 @@
+{
+  "id": "579c47b5",
+  "name": "Chaos_Weaver_v0_812",
+  "task_type": "sequence",
+  "generation": 0,
+  "parent_id": "genesis",
+  "fitness_score": 56.03,
+  "hypothesis": "Hypothesis: Unrestricted combination of [SpikingHebbianResonator, AttentionBlock, MultiScaleWaveletConv1D, SpikingHebbianResonator, LinearBlock] with QuantumSuperpositionUnit and 1 dynamic skip connections. Optimizes gradient dynamics and non-linear expressive capacity on AMD hardware.",
+  "benchmark_results": {
+    "status": "success",
+    "final_val_loss": 1.0429,
+    "final_val_accuracy": 55.31,
+    "param_count": 15932,
+    "train_duration_sec": 0.8,
+    "throughput_samples_per_sec": 3218.9,
+    "inference_latency_ms": 1.37,
+    "history": {
+      "train_loss": [
+        1.1973,
+        1.0496
+      ],
+      "val_loss": [
+        1.0977,
+        1.0429
+      ],
+      "val_accuracy": [
+        53.44,
+        55.31
+      ],
+      "epochs": [
+        1,
+        2
+      ]
+    }
+  },
+  "code_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\579c47b5_Chaos_Weaver_v0_812\\model.py",
+  "weights_path": "C:\\Users\\Nazgrish\\Antigravity\\New folder\\discovered_models\\579c47b5_Chaos_Weaver_v0_812\\weights.pt"
+}
